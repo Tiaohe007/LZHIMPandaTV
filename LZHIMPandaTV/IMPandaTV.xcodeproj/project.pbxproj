@@ -1,0 +1,1610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E19F41816EA68573ACE8B8A /* libPods-IMPandaTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2282B577AFB0326841BD9D78 /* libPods-IMPandaTV.a */; };
+		9A1DE7B61DA882730047911B /* LZHShowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DE7B41DA882730047911B /* LZHShowerViewController.m */; };
+		9A1DE7B71DA882730047911B /* LZHShowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7B51DA882730047911B /* LZHShowerViewController.xib */; };
+		9A1DE7BA1DA892360047911B /* living_19x10_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7B81DA892360047911B /* living_19x10_@2x.png */; };
+		9A1DE7BB1DA892360047911B /* living_21x11_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7B91DA892360047911B /* living_21x11_@3x.png */; };
+		9A1DE7BD1DA8A3440047911B /* photo_default_icon_56x56_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7BC1DA8A3440047911B /* photo_default_icon_56x56_@2x.png */; };
+		9A1DE7BF1DA8F7050047911B /* viewerButton_normal_65x27_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7BE1DA8F7050047911B /* viewerButton_normal_65x27_@3x.png */; };
+		9A1DE7C11DA8FC7C0047911B /* returnButton_normal_34x34_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7C01DA8FC7C0047911B /* returnButton_normal_34x34_@3x.png */; };
+		9A1DE7C31DA8FC900047911B /* returnButton_hover_34x34_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DE7C21DA8FC900047911B /* returnButton_hover_34x34_@3x.png */; };
+		9A90CA141D9F54A600C080EB /* LZHAllAliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA131D9F54A600C080EB /* LZHAllAliveViewController.m */; };
+		9A90CA1A1D9F61F900C080EB /* LZHAliveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA181D9F61F900C080EB /* LZHAliveCell.m */; };
+		9A90CA1B1D9F61F900C080EB /* LZHAliveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA191D9F61F900C080EB /* LZHAliveCell.xib */; };
+		9A90CA1F1D9FA5FC00C080EB /* LZHLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA1E1D9FA5FC00C080EB /* LZHLModel.m */; };
+		9A90CA231D9FE38500C080EB /* LZHConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA221D9FE38500C080EB /* LZHConst.m */; };
+		9A90CA2F1D9FE80A00C080EB /* LZHLOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA2E1D9FE80A00C080EB /* LZHLOLViewController.m */; };
+		9A90CA361DA0ABA400C080EB /* LZHCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA341DA0ABA400C080EB /* LZHCollectionReusableView.m */; };
+		9A90CA3B1DA0D35D00C080EB /* LZHLOLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA3A1DA0D35D00C080EB /* LZHLOLModel.m */; };
+		9A90CA3F1DA113A500C080EB /* LZHDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA3E1DA113A500C080EB /* LZHDModel.m */; };
+		9A90CA431DA1417B00C080EB /* LZHItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA411DA1417B00C080EB /* LZHItemsCell.m */; };
+		9A90CA441DA1417B00C080EB /* LZHItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA421DA1417B00C080EB /* LZHItemsCell.xib */; };
+		9A90CA471DA39D1800C080EB /* LZHGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA461DA39D1800C080EB /* LZHGModel.m */; };
+		9A90CA4B1DA39DD600C080EB /* LZHGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA491DA39DD600C080EB /* LZHGameCell.m */; };
+		9A90CA4C1DA39DD600C080EB /* LZHGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA4A1DA39DD600C080EB /* LZHGameCell.xib */; };
+		9A90CA4E1DA3B30900C080EB /* classify_default_321x444_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA4D1DA3B30900C080EB /* classify_default_321x444_@2x.png */; };
+		9A90CA521DA4835A00C080EB /* LZHTopClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA511DA4835A00C080EB /* LZHTopClassViewController.m */; };
+		9A90CA551DA490B900C080EB /* LZHTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA541DA490B900C080EB /* LZHTopModel.m */; };
+		9A90CA591DA4938E00C080EB /* LZHTopClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA571DA4938E00C080EB /* LZHTopClassCell.m */; };
+		9A90CA5A1DA4938E00C080EB /* LZHTopClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA581DA4938E00C080EB /* LZHTopClassCell.xib */; };
+		9A90CA5E1DA4F0B000C080EB /* LZHMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA5C1DA4F0B000C080EB /* LZHMineCell.m */; };
+		9A90CA5F1DA4F0B000C080EB /* LZHMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA5D1DA4F0B000C080EB /* LZHMineCell.xib */; };
+		9A90CA611DA4F24300C080EB /* arrow_right2_13x13_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CA601DA4F24300C080EB /* arrow_right2_13x13_@2x.png */; };
+		9A90CA651DA5DAF700C080EB /* LZHLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CA641DA5DAF700C080EB /* LZHLiveController.m */; };
+		9A90CA9B1DA5F52C00C080EB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CA9A1DA5F52C00C080EB /* IJKMediaFramework.framework */; };
+		9A90CA9D1DA5F56B00C080EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CA9C1DA5F56B00C080EB /* libz.tbd */; };
+		9A90CA9F1DA5F57600C080EB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CA9E1DA5F57600C080EB /* libbz2.tbd */; };
+		9A90CAA11DA5F58100C080EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAA01DA5F58100C080EB /* AudioToolbox.framework */; };
+		9A90CAA31DA5F58C00C080EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAA21DA5F58C00C080EB /* AVFoundation.framework */; };
+		9A90CAA51DA5F59600C080EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAA41DA5F59600C080EB /* CoreGraphics.framework */; };
+		9A90CAA71DA5F59F00C080EB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAA61DA5F59F00C080EB /* CoreMedia.framework */; };
+		9A90CAA91DA5F5B100C080EB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAA81DA5F5B100C080EB /* MediaPlayer.framework */; };
+		9A90CAAB1DA5F5C300C080EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAAA1DA5F5C300C080EB /* MobileCoreServices.framework */; };
+		9A90CAAD1DA5F5CF00C080EB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAAC1DA5F5CF00C080EB /* OpenGLES.framework */; };
+		9A90CAAF1DA5F5DE00C080EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAAE1DA5F5DE00C080EB /* QuartzCore.framework */; };
+		9A90CAB11DA5F5E600C080EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAB01DA5F5E600C080EB /* UIKit.framework */; };
+		9A90CAB31DA5F5F100C080EB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAB21DA5F5F100C080EB /* VideoToolbox.framework */; };
+		9A90CAB81DA6291000C080EB /* sk_clean_34x34_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CAB61DA6291000C080EB /* sk_clean_34x34_@3x.png */; };
+		9A90CAB91DA6291000C080EB /* sk_clean01_34x34_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CAB71DA6291000C080EB /* sk_clean01_34x34_@3x.png */; };
+		9A90CAC11DA6770100C080EB /* LZHMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A90CABF1DA6770100C080EB /* LZHMapViewController.m */; };
+		9A90CAC21DA6770100C080EB /* LZHMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90CAC01DA6770100C080EB /* LZHMapViewController.xib */; };
+		9A90CAC81DA6937200C080EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90CAC71DA6937200C080EB /* MapKit.framework */; };
+		9A918B841DABC3C4009563DA /* LZHLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A918B821DABC3C4009563DA /* LZHLogInViewController.m */; };
+		9A918B851DABC3C4009563DA /* LZHLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B831DABC3C4009563DA /* LZHLogInViewController.xib */; };
+		9A918B8A1DABC5BF009563DA /* share_task_weibo_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B861DABC5BF009563DA /* share_task_weibo_44x44_@2x.png */; };
+		9A918B8B1DABC5BF009563DA /* share_task_weibo_57x57_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B871DABC5BF009563DA /* share_task_weibo_57x57_@3x.png */; };
+		9A918B8C1DABC5BF009563DA /* share_task_weixin_44x44_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B881DABC5BF009563DA /* share_task_weixin_44x44_@2x.png */; };
+		9A918B8D1DABC5BF009563DA /* share_task_weixin_57x57_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B891DABC5BF009563DA /* share_task_weixin_57x57_@3x.png */; };
+		9A918B941DABC5E3009563DA /* sk_QQ_36x36_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B8E1DABC5E3009563DA /* sk_QQ_36x36_@2x.png */; };
+		9A918B951DABC5E3009563DA /* sk_QQ_40x40_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B8F1DABC5E3009563DA /* sk_QQ_40x40_@3x.png */; };
+		9A918B961DABC5E3009563DA /* sk_WeChat_36x36_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B901DABC5E3009563DA /* sk_WeChat_36x36_@2x.png */; };
+		9A918B971DABC5E3009563DA /* sk_WeChat_40x40_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B911DABC5E3009563DA /* sk_WeChat_40x40_@3x.png */; };
+		9A918B981DABC5E3009563DA /* sk_WeiBo_36x36_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B921DABC5E3009563DA /* sk_WeiBo_36x36_@2x.png */; };
+		9A918B991DABC5E3009563DA /* sk_WeiBo_40x40_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A918B931DABC5E3009563DA /* sk_WeiBo_40x40_@3x.png */; };
+		9A95D04D1D992BAB00DA48CD /* LZHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D04C1D992BAB00DA48CD /* LZHHomeViewController.m */; };
+		9A95D0511D992C0100DA48CD /* LZHGameCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D04F1D992C0100DA48CD /* LZHGameCollectionViewController.m */; };
+		9A95D0521D992C0100DA48CD /* LZHGameCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0501D992C0100DA48CD /* LZHGameCollectionViewController.xib */; };
+		9A95D0551D992C4B00DA48CD /* LZHEntertaimentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0541D992C4B00DA48CD /* LZHEntertaimentViewController.m */; };
+		9A95D0581D992CD200DA48CD /* LZHMineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0571D992CD200DA48CD /* LZHMineTableViewController.m */; };
+		9A95D05B1D992D3F00DA48CD /* LZHGodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D05A1D992D3F00DA48CD /* LZHGodViewController.m */; };
+		9A95D0741D99FE9B00DA48CD /* LZHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0731D99FE9B00DA48CD /* LZHTabBar.m */; };
+		9A95D0761D9A443A00DA48CD /* title_image_52x30_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0751D9A443A00DA48CD /* title_image_52x30_@2x.png */; };
+		9A95D0781D9A47EA00DA48CD /* searchbutton_18x18_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0771D9A47EA00DA48CD /* searchbutton_18x18_@2x.png */; };
+		9A95D07D1D9A491000DA48CD /* UIImage+LZHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D07C1D9A491000DA48CD /* UIImage+LZHImage.m */; };
+		9A95D0811D9A4C4A00DA48CD /* UIView+LZHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0801D9A4C4A00DA48CD /* UIView+LZHFrame.m */; };
+		9A95D08A1D9A838900DA48CD /* LZHMyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0891D9A838900DA48CD /* LZHMyButton.m */; };
+		9A95D0921D9AC08000DA48CD /* LZHRecommedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0911D9AC08000DA48CD /* LZHRecommedTableViewController.m */; };
+		9A95D0961D9B581900DA48CD /* LZHRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0951D9B581900DA48CD /* LZHRModel.m */; };
+		9A95D0991D9B588F00DA48CD /* LZHScrollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0981D9B588F00DA48CD /* LZHScrollModel.m */; };
+		9A95D09C1D9B677A00DA48CD /* LZHTempModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D09B1D9B677A00DA48CD /* LZHTempModel.m */; };
+		9A95D0A81D9C98E100DA48CD /* LZHScrollViewHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0A71D9C98E100DA48CD /* LZHScrollViewHeadCell.m */; };
+		9A95D0AA1D9C98F100DA48CD /* LZHScrollViewHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0A91D9C98F100DA48CD /* LZHScrollViewHeadCell.xib */; };
+		9A95D0AE1D9CDE5A00DA48CD /* LZHRecommedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95D0AC1D9CDE5A00DA48CD /* LZHRecommedCell.m */; };
+		9A95D0AF1D9CDE5A00DA48CD /* LZHRecommedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0AD1D9CDE5A00DA48CD /* LZHRecommedCell.xib */; };
+		9A95D0B11D9CF05F00DA48CD /* addbutton_43x40_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A95D0B01D9CF05E00DA48CD /* addbutton_43x40_@2x.png */; };
+		9AB9FA541DAA0E5F00CE0504 /* LZHRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA531DAA0E5F00CE0504 /* LZHRankViewController.m */; };
+		9AB9FA581DAA622A00CE0504 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA571DAA622A00CE0504 /* QRCodeViewController.m */; };
+		9AB9FA5A1DAA666400CE0504 /* icon_black_scancode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9FA591DAA666400CE0504 /* icon_black_scancode@2x.png */; };
+		9AB9FA5C1DAA67CA00CE0504 /* erweima.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9FA5B1DAA67CA00CE0504 /* erweima.png */; };
+		9AB9FA611DAA6C2D00CE0504 /* UIImage+LZHErweima.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA601DAA6C2D00CE0504 /* UIImage+LZHErweima.m */; };
+		9AB9FA6A1DAA7C9B00CE0504 /* LZHRankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA691DAA7C9B00CE0504 /* LZHRankModel.m */; };
+		9AB9FA6E1DAA7F0600CE0504 /* LZHRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA6C1DAA7F0600CE0504 /* LZHRankCell.m */; };
+		9AB9FA6F1DAA7F0600CE0504 /* LZHRankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9FA6D1DAA7F0600CE0504 /* LZHRankCell.xib */; };
+		9AB9FA731DAB278500CE0504 /* LZHRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9FA711DAB278500CE0504 /* LZHRightCell.m */; };
+		9AB9FA741DAB278500CE0504 /* LZHRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9FA721DAB278500CE0504 /* LZHRightCell.xib */; };
+		9AB9FA791DAB488F00CE0504 /* emoji_panda_poor_44x39_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB9FA781DAB488F00CE0504 /* emoji_panda_poor_44x39_@2x.png */; };
+		9AFE19A81D98AE9E002F6572 /* IMPandaTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE19A61D98AE9E002F6572 /* IMPandaTV.xcdatamodeld */; };
+		9AFE19AA1D98AE9E002F6572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE19A91D98AE9E002F6572 /* Assets.xcassets */; };
+		9AFE19AD1D98AE9E002F6572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE19AB1D98AE9E002F6572 /* LaunchScreen.storyboard */; };
+		9AFE19B81D98AE9E002F6572 /* IMPandaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE19B71D98AE9E002F6572 /* IMPandaTVTests.m */; };
+		9AFE19DF1D98B4C1002F6572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE19DD1D98B4C1002F6572 /* AppDelegate.m */; };
+		9AFE19E01D98B4C1002F6572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE19DE1D98B4C1002F6572 /* main.m */; };
+		9AFE19E31D98B534002F6572 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE19E21D98B534002F6572 /* MainTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AFE19B41D98AE9E002F6572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFE198F1D98AE9E002F6572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFE19961D98AE9E002F6572;
+			remoteInfo = IMPandaTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2282B577AFB0326841BD9D78 /* libPods-IMPandaTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMPandaTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3203B418BDDBC936DB902870 /* Pods-IMPandaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMPandaTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMPandaTV/Pods-IMPandaTV.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1DE7B31DA882730047911B /* LZHShowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHShowerViewController.h; sourceTree = "<group>"; };
+		9A1DE7B41DA882730047911B /* LZHShowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHShowerViewController.m; sourceTree = "<group>"; };
+		9A1DE7B51DA882730047911B /* LZHShowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHShowerViewController.xib; sourceTree = "<group>"; };
+		9A1DE7B81DA892360047911B /* living_19x10_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "living_19x10_@2x.png"; sourceTree = "<group>"; };
+		9A1DE7B91DA892360047911B /* living_21x11_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "living_21x11_@3x.png"; sourceTree = "<group>"; };
+		9A1DE7BC1DA8A3440047911B /* photo_default_icon_56x56_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_default_icon_56x56_@2x.png"; sourceTree = "<group>"; };
+		9A1DE7BE1DA8F7050047911B /* viewerButton_normal_65x27_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viewerButton_normal_65x27_@3x.png"; sourceTree = "<group>"; };
+		9A1DE7C01DA8FC7C0047911B /* returnButton_normal_34x34_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "returnButton_normal_34x34_@3x.png"; sourceTree = "<group>"; };
+		9A1DE7C21DA8FC900047911B /* returnButton_hover_34x34_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "returnButton_hover_34x34_@3x.png"; sourceTree = "<group>"; };
+		9A90CA121D9F54A600C080EB /* LZHAllAliveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHAllAliveViewController.h; sourceTree = "<group>"; };
+		9A90CA131D9F54A600C080EB /* LZHAllAliveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHAllAliveViewController.m; sourceTree = "<group>"; };
+		9A90CA171D9F61F900C080EB /* LZHAliveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHAliveCell.h; sourceTree = "<group>"; };
+		9A90CA181D9F61F900C080EB /* LZHAliveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHAliveCell.m; sourceTree = "<group>"; };
+		9A90CA191D9F61F900C080EB /* LZHAliveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHAliveCell.xib; sourceTree = "<group>"; };
+		9A90CA1D1D9FA5FC00C080EB /* LZHLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHLModel.h; sourceTree = "<group>"; };
+		9A90CA1E1D9FA5FC00C080EB /* LZHLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHLModel.m; sourceTree = "<group>"; };
+		9A90CA211D9FE38500C080EB /* LZHConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHConst.h; sourceTree = "<group>"; };
+		9A90CA221D9FE38500C080EB /* LZHConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHConst.m; sourceTree = "<group>"; };
+		9A90CA2D1D9FE80A00C080EB /* LZHLOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHLOLViewController.h; sourceTree = "<group>"; };
+		9A90CA2E1D9FE80A00C080EB /* LZHLOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHLOLViewController.m; sourceTree = "<group>"; };
+		9A90CA331DA0ABA400C080EB /* LZHCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZHCollectionReusableView.h; path = "../../../../Main(主要)/Controllers/英雄联盟/LZHCollectionReusableView.h"; sourceTree = "<group>"; };
+		9A90CA341DA0ABA400C080EB /* LZHCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZHCollectionReusableView.m; path = "../../../../Main(主要)/Controllers/英雄联盟/LZHCollectionReusableView.m"; sourceTree = "<group>"; };
+		9A90CA391DA0D35D00C080EB /* LZHLOLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHLOLModel.h; sourceTree = "<group>"; };
+		9A90CA3A1DA0D35D00C080EB /* LZHLOLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHLOLModel.m; sourceTree = "<group>"; };
+		9A90CA3D1DA113A500C080EB /* LZHDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHDModel.h; sourceTree = "<group>"; };
+		9A90CA3E1DA113A500C080EB /* LZHDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHDModel.m; sourceTree = "<group>"; };
+		9A90CA401DA1417B00C080EB /* LZHItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHItemsCell.h; sourceTree = "<group>"; };
+		9A90CA411DA1417B00C080EB /* LZHItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHItemsCell.m; sourceTree = "<group>"; };
+		9A90CA421DA1417B00C080EB /* LZHItemsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHItemsCell.xib; sourceTree = "<group>"; };
+		9A90CA451DA39D1800C080EB /* LZHGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHGModel.h; sourceTree = "<group>"; };
+		9A90CA461DA39D1800C080EB /* LZHGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHGModel.m; sourceTree = "<group>"; };
+		9A90CA481DA39DD600C080EB /* LZHGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHGameCell.h; sourceTree = "<group>"; };
+		9A90CA491DA39DD600C080EB /* LZHGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHGameCell.m; sourceTree = "<group>"; };
+		9A90CA4A1DA39DD600C080EB /* LZHGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHGameCell.xib; sourceTree = "<group>"; };
+		9A90CA4D1DA3B30900C080EB /* classify_default_321x444_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classify_default_321x444_@2x.png"; sourceTree = "<group>"; };
+		9A90CA501DA4835A00C080EB /* LZHTopClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTopClassViewController.h; sourceTree = "<group>"; };
+		9A90CA511DA4835A00C080EB /* LZHTopClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTopClassViewController.m; sourceTree = "<group>"; };
+		9A90CA531DA490B900C080EB /* LZHTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTopModel.h; sourceTree = "<group>"; };
+		9A90CA541DA490B900C080EB /* LZHTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTopModel.m; sourceTree = "<group>"; };
+		9A90CA561DA4938E00C080EB /* LZHTopClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTopClassCell.h; sourceTree = "<group>"; };
+		9A90CA571DA4938E00C080EB /* LZHTopClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTopClassCell.m; sourceTree = "<group>"; };
+		9A90CA581DA4938E00C080EB /* LZHTopClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHTopClassCell.xib; sourceTree = "<group>"; };
+		9A90CA5B1DA4F0B000C080EB /* LZHMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHMineCell.h; sourceTree = "<group>"; };
+		9A90CA5C1DA4F0B000C080EB /* LZHMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHMineCell.m; sourceTree = "<group>"; };
+		9A90CA5D1DA4F0B000C080EB /* LZHMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHMineCell.xib; sourceTree = "<group>"; };
+		9A90CA601DA4F24300C080EB /* arrow_right2_13x13_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right2_13x13_@2x.png"; sourceTree = "<group>"; };
+		9A90CA631DA5DAF700C080EB /* LZHLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZHLiveController.h; path = "IMPandaTV/Classes/Mine(我的)/Views/LZHLiveController.h"; sourceTree = SOURCE_ROOT; };
+		9A90CA641DA5DAF700C080EB /* LZHLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZHLiveController.m; path = "IMPandaTV/Classes/Mine(我的)/Views/LZHLiveController.m"; sourceTree = SOURCE_ROOT; };
+		9A90CA9A1DA5F52C00C080EB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		9A90CA9C1DA5F56B00C080EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A90CA9E1DA5F57600C080EB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		9A90CAA01DA5F58100C080EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9A90CAA21DA5F58C00C080EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A90CAA41DA5F59600C080EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A90CAA61DA5F59F00C080EB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9A90CAA81DA5F5B100C080EB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9A90CAAA1DA5F5C300C080EB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9A90CAAC1DA5F5CF00C080EB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9A90CAAE1DA5F5DE00C080EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A90CAB01DA5F5E600C080EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A90CAB21DA5F5F100C080EB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		9A90CAB61DA6291000C080EB /* sk_clean_34x34_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_clean_34x34_@3x.png"; sourceTree = "<group>"; };
+		9A90CAB71DA6291000C080EB /* sk_clean01_34x34_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_clean01_34x34_@3x.png"; sourceTree = "<group>"; };
+		9A90CABE1DA6770100C080EB /* LZHMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHMapViewController.h; sourceTree = "<group>"; };
+		9A90CABF1DA6770100C080EB /* LZHMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHMapViewController.m; sourceTree = "<group>"; };
+		9A90CAC01DA6770100C080EB /* LZHMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHMapViewController.xib; sourceTree = "<group>"; };
+		9A90CAC71DA6937200C080EB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9A918B811DABC3C4009563DA /* LZHLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHLogInViewController.h; sourceTree = "<group>"; };
+		9A918B821DABC3C4009563DA /* LZHLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHLogInViewController.m; sourceTree = "<group>"; };
+		9A918B831DABC3C4009563DA /* LZHLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHLogInViewController.xib; sourceTree = "<group>"; };
+		9A918B861DABC5BF009563DA /* share_task_weibo_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_task_weibo_44x44_@2x.png"; sourceTree = "<group>"; };
+		9A918B871DABC5BF009563DA /* share_task_weibo_57x57_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_task_weibo_57x57_@3x.png"; sourceTree = "<group>"; };
+		9A918B881DABC5BF009563DA /* share_task_weixin_44x44_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_task_weixin_44x44_@2x.png"; sourceTree = "<group>"; };
+		9A918B891DABC5BF009563DA /* share_task_weixin_57x57_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_task_weixin_57x57_@3x.png"; sourceTree = "<group>"; };
+		9A918B8E1DABC5E3009563DA /* sk_QQ_36x36_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_QQ_36x36_@2x.png"; sourceTree = "<group>"; };
+		9A918B8F1DABC5E3009563DA /* sk_QQ_40x40_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_QQ_40x40_@3x.png"; sourceTree = "<group>"; };
+		9A918B901DABC5E3009563DA /* sk_WeChat_36x36_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_WeChat_36x36_@2x.png"; sourceTree = "<group>"; };
+		9A918B911DABC5E3009563DA /* sk_WeChat_40x40_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_WeChat_40x40_@3x.png"; sourceTree = "<group>"; };
+		9A918B921DABC5E3009563DA /* sk_WeiBo_36x36_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_WeiBo_36x36_@2x.png"; sourceTree = "<group>"; };
+		9A918B931DABC5E3009563DA /* sk_WeiBo_40x40_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sk_WeiBo_40x40_@3x.png"; sourceTree = "<group>"; };
+		9A95D04B1D992BAB00DA48CD /* LZHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHHomeViewController.h; sourceTree = "<group>"; };
+		9A95D04C1D992BAB00DA48CD /* LZHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHHomeViewController.m; sourceTree = "<group>"; };
+		9A95D04E1D992C0100DA48CD /* LZHGameCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHGameCollectionViewController.h; sourceTree = "<group>"; };
+		9A95D04F1D992C0100DA48CD /* LZHGameCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHGameCollectionViewController.m; sourceTree = "<group>"; };
+		9A95D0501D992C0100DA48CD /* LZHGameCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LZHGameCollectionViewController.xib; path = ../Controllers/LZHGameCollectionViewController.xib; sourceTree = "<group>"; };
+		9A95D0531D992C4B00DA48CD /* LZHEntertaimentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHEntertaimentViewController.h; sourceTree = "<group>"; };
+		9A95D0541D992C4B00DA48CD /* LZHEntertaimentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHEntertaimentViewController.m; sourceTree = "<group>"; };
+		9A95D0561D992CD200DA48CD /* LZHMineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHMineTableViewController.h; sourceTree = "<group>"; };
+		9A95D0571D992CD200DA48CD /* LZHMineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHMineTableViewController.m; sourceTree = "<group>"; };
+		9A95D0591D992D3F00DA48CD /* LZHGodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHGodViewController.h; sourceTree = "<group>"; };
+		9A95D05A1D992D3F00DA48CD /* LZHGodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHGodViewController.m; sourceTree = "<group>"; };
+		9A95D0721D99FE9B00DA48CD /* LZHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTabBar.h; sourceTree = "<group>"; };
+		9A95D0731D99FE9B00DA48CD /* LZHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTabBar.m; sourceTree = "<group>"; };
+		9A95D0751D9A443A00DA48CD /* title_image_52x30_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title_image_52x30_@2x.png"; sourceTree = "<group>"; };
+		9A95D0771D9A47EA00DA48CD /* searchbutton_18x18_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchbutton_18x18_@2x.png"; sourceTree = "<group>"; };
+		9A95D07B1D9A491000DA48CD /* UIImage+LZHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZHImage.h"; sourceTree = "<group>"; };
+		9A95D07C1D9A491000DA48CD /* UIImage+LZHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZHImage.m"; sourceTree = "<group>"; };
+		9A95D07E1D9A4A8300DA48CD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A95D07F1D9A4C4A00DA48CD /* UIView+LZHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZHFrame.h"; sourceTree = "<group>"; };
+		9A95D0801D9A4C4A00DA48CD /* UIView+LZHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZHFrame.m"; sourceTree = "<group>"; };
+		9A95D0881D9A838900DA48CD /* LZHMyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHMyButton.h; sourceTree = "<group>"; };
+		9A95D0891D9A838900DA48CD /* LZHMyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHMyButton.m; sourceTree = "<group>"; };
+		9A95D0901D9AC08000DA48CD /* LZHRecommedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZHRecommedTableViewController.h; path = IMPandaTV/Classes/Others/Categary/LZHRecommedTableViewController.h; sourceTree = SOURCE_ROOT; };
+		9A95D0911D9AC08000DA48CD /* LZHRecommedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZHRecommedTableViewController.m; path = IMPandaTV/Classes/Others/Categary/LZHRecommedTableViewController.m; sourceTree = SOURCE_ROOT; };
+		9A95D0941D9B581900DA48CD /* LZHRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRModel.h; sourceTree = "<group>"; };
+		9A95D0951D9B581900DA48CD /* LZHRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRModel.m; sourceTree = "<group>"; };
+		9A95D0971D9B588F00DA48CD /* LZHScrollModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHScrollModel.h; sourceTree = "<group>"; };
+		9A95D0981D9B588F00DA48CD /* LZHScrollModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHScrollModel.m; sourceTree = "<group>"; };
+		9A95D09A1D9B677A00DA48CD /* LZHTempModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHTempModel.h; sourceTree = "<group>"; };
+		9A95D09B1D9B677A00DA48CD /* LZHTempModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHTempModel.m; sourceTree = "<group>"; };
+		9A95D0A61D9C98E100DA48CD /* LZHScrollViewHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHScrollViewHeadCell.h; sourceTree = "<group>"; };
+		9A95D0A71D9C98E100DA48CD /* LZHScrollViewHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHScrollViewHeadCell.m; sourceTree = "<group>"; };
+		9A95D0A91D9C98F100DA48CD /* LZHScrollViewHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHScrollViewHeadCell.xib; sourceTree = "<group>"; };
+		9A95D0AB1D9CDE5A00DA48CD /* LZHRecommedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRecommedCell.h; sourceTree = "<group>"; };
+		9A95D0AC1D9CDE5A00DA48CD /* LZHRecommedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRecommedCell.m; sourceTree = "<group>"; };
+		9A95D0AD1D9CDE5A00DA48CD /* LZHRecommedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHRecommedCell.xib; sourceTree = "<group>"; };
+		9A95D0B01D9CF05E00DA48CD /* addbutton_43x40_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addbutton_43x40_@2x.png"; sourceTree = "<group>"; };
+		9AB9FA521DAA0E5F00CE0504 /* LZHRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRankViewController.h; sourceTree = "<group>"; };
+		9AB9FA531DAA0E5F00CE0504 /* LZHRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRankViewController.m; sourceTree = "<group>"; };
+		9AB9FA561DAA622A00CE0504 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		9AB9FA571DAA622A00CE0504 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		9AB9FA591DAA666400CE0504 /* icon_black_scancode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_black_scancode@2x.png"; sourceTree = "<group>"; };
+		9AB9FA5B1DAA67CA00CE0504 /* erweima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erweima.png; sourceTree = "<group>"; };
+		9AB9FA5F1DAA6C2D00CE0504 /* UIImage+LZHErweima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZHErweima.h"; sourceTree = "<group>"; };
+		9AB9FA601DAA6C2D00CE0504 /* UIImage+LZHErweima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZHErweima.m"; sourceTree = "<group>"; };
+		9AB9FA681DAA7C9B00CE0504 /* LZHRankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRankModel.h; sourceTree = "<group>"; };
+		9AB9FA691DAA7C9B00CE0504 /* LZHRankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRankModel.m; sourceTree = "<group>"; };
+		9AB9FA6B1DAA7F0600CE0504 /* LZHRankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRankCell.h; sourceTree = "<group>"; };
+		9AB9FA6C1DAA7F0600CE0504 /* LZHRankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRankCell.m; sourceTree = "<group>"; };
+		9AB9FA6D1DAA7F0600CE0504 /* LZHRankCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHRankCell.xib; sourceTree = "<group>"; };
+		9AB9FA701DAB278500CE0504 /* LZHRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHRightCell.h; sourceTree = "<group>"; };
+		9AB9FA711DAB278500CE0504 /* LZHRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHRightCell.m; sourceTree = "<group>"; };
+		9AB9FA721DAB278500CE0504 /* LZHRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZHRightCell.xib; sourceTree = "<group>"; };
+		9AB9FA781DAB488F00CE0504 /* emoji_panda_poor_44x39_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emoji_panda_poor_44x39_@2x.png"; path = "../直播/emoji_panda_poor_44x39_@2x.png"; sourceTree = "<group>"; };
+		9AFE19971D98AE9E002F6572 /* IMPandaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMPandaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFE19A71D98AE9E002F6572 /* IMPandaTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMPandaTV.xcdatamodel; sourceTree = "<group>"; };
+		9AFE19A91D98AE9E002F6572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFE19AC1D98AE9E002F6572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AFE19AE1D98AE9E002F6572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFE19B31D98AE9E002F6572 /* IMPandaTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPandaTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFE19B71D98AE9E002F6572 /* IMPandaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPandaTVTests.m; sourceTree = "<group>"; };
+		9AFE19B91D98AE9E002F6572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFE19DC1D98B4C1002F6572 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AFE19DD1D98B4C1002F6572 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AFE19DE1D98B4C1002F6572 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AFE19E11D98B534002F6572 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		9AFE19E21D98B534002F6572 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		FC37E3DA9454F02CD9BBA28A /* Pods-IMPandaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMPandaTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMPandaTV/Pods-IMPandaTV.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFE19941D98AE9E002F6572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A90CAC81DA6937200C080EB /* MapKit.framework in Frameworks */,
+				9A90CAB31DA5F5F100C080EB /* VideoToolbox.framework in Frameworks */,
+				9A90CAB11DA5F5E600C080EB /* UIKit.framework in Frameworks */,
+				9A90CAAF1DA5F5DE00C080EB /* QuartzCore.framework in Frameworks */,
+				9A90CAAD1DA5F5CF00C080EB /* OpenGLES.framework in Frameworks */,
+				9A90CAAB1DA5F5C300C080EB /* MobileCoreServices.framework in Frameworks */,
+				9A90CAA91DA5F5B100C080EB /* MediaPlayer.framework in Frameworks */,
+				9A90CAA71DA5F59F00C080EB /* CoreMedia.framework in Frameworks */,
+				9A90CAA51DA5F59600C080EB /* CoreGraphics.framework in Frameworks */,
+				9A90CAA31DA5F58C00C080EB /* AVFoundation.framework in Frameworks */,
+				9A90CAA11DA5F58100C080EB /* AudioToolbox.framework in Frameworks */,
+				9A90CA9F1DA5F57600C080EB /* libbz2.tbd in Frameworks */,
+				9A90CA9D1DA5F56B00C080EB /* libz.tbd in Frameworks */,
+				2E19F41816EA68573ACE8B8A /* libPods-IMPandaTV.a in Frameworks */,
+				9A90CA9B1DA5F52C00C080EB /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE19B01D98AE9E002F6572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DF0E44FBDC7ABA9F7EC48F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3203B418BDDBC936DB902870 /* Pods-IMPandaTV.debug.xcconfig */,
+				FC37E3DA9454F02CD9BBA28A /* Pods-IMPandaTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A1DE7B21DA882460047911B /* Shower(主播) */ = {
+			isa = PBXGroup;
+			children = (
+				9A1DE7B31DA882730047911B /* LZHShowerViewController.h */,
+				9A1DE7B41DA882730047911B /* LZHShowerViewController.m */,
+				9A1DE7B51DA882730047911B /* LZHShowerViewController.xib */,
+			);
+			name = "Shower(主播)";
+			sourceTree = "<group>";
+		};
+		9A90CA161D9F61D300C080EB /* 全部直播的xib们 */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA171D9F61F900C080EB /* LZHAliveCell.h */,
+				9A90CA181D9F61F900C080EB /* LZHAliveCell.m */,
+				9A90CA191D9F61F900C080EB /* LZHAliveCell.xib */,
+			);
+			name = "全部直播的xib们";
+			path = "精彩推荐";
+			sourceTree = "<group>";
+		};
+		9A90CA1C1D9FA5CD00C080EB /* 全部直播的Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA1D1D9FA5FC00C080EB /* LZHLModel.h */,
+				9A90CA1E1D9FA5FC00C080EB /* LZHLModel.m */,
+			);
+			name = "全部直播的Model";
+			path = "推荐的Model";
+			sourceTree = "<group>";
+		};
+		9A90CA201D9FE36000C080EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA211D9FE38500C080EB /* LZHConst.h */,
+				9A90CA221D9FE38500C080EB /* LZHConst.m */,
+			);
+			name = Other;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A90CA2C1D9FE72600C080EB /* 英雄联盟的xib们 */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA331DA0ABA400C080EB /* LZHCollectionReusableView.h */,
+				9A90CA341DA0ABA400C080EB /* LZHCollectionReusableView.m */,
+				9A90CA401DA1417B00C080EB /* LZHItemsCell.h */,
+				9A90CA411DA1417B00C080EB /* LZHItemsCell.m */,
+				9A90CA421DA1417B00C080EB /* LZHItemsCell.xib */,
+			);
+			name = "英雄联盟的xib们";
+			path = "精彩推荐";
+			sourceTree = "<group>";
+		};
+		9A90CA381DA0D33100C080EB /* 英雄联盟的Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA391DA0D35D00C080EB /* LZHLOLModel.h */,
+				9A90CA3A1DA0D35D00C080EB /* LZHLOLModel.m */,
+				9A90CA3D1DA113A500C080EB /* LZHDModel.h */,
+				9A90CA3E1DA113A500C080EB /* LZHDModel.m */,
+			);
+			name = "英雄联盟的Model";
+			path = "推荐的Model";
+			sourceTree = "<group>";
+		};
+		9A90CA4F1DA4831E00C080EB /* TopClassViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA501DA4835A00C080EB /* LZHTopClassViewController.h */,
+				9A90CA511DA4835A00C080EB /* LZHTopClassViewController.m */,
+			);
+			path = TopClassViewController;
+			sourceTree = "<group>";
+		};
+		9A90CA621DA5DAC900C080EB /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA631DA5DAF700C080EB /* LZHLiveController.h */,
+				9A90CA641DA5DAF700C080EB /* LZHLiveController.m */,
+				9A1DE7B21DA882460047911B /* Shower(主播) */,
+				9AB9FA511DAA0E0D00CE0504 /* Rank(排行榜) */,
+			);
+			name = "Live(直播)";
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		9A90CABD1DA6768700C080EB /* Map(地图) */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CAC51DA6771800C080EB /* Model */,
+				9A90CAC41DA6771600C080EB /* View */,
+				9A90CAC31DA6770700C080EB /* Controller */,
+			);
+			name = "Map(地图)";
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		9A90CAC31DA6770700C080EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CABE1DA6770100C080EB /* LZHMapViewController.h */,
+				9A90CABF1DA6770100C080EB /* LZHMapViewController.m */,
+				9AB9FA5D1DAA6B4500CE0504 /* Erweima */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A90CAC41DA6771600C080EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CAC01DA6770100C080EB /* LZHMapViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A90CAC51DA6771800C080EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A95D06F1D99FB2500DA48CD /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9A918B8E1DABC5E3009563DA /* sk_QQ_36x36_@2x.png */,
+				9A918B8F1DABC5E3009563DA /* sk_QQ_40x40_@3x.png */,
+				9A918B901DABC5E3009563DA /* sk_WeChat_36x36_@2x.png */,
+				9A918B911DABC5E3009563DA /* sk_WeChat_40x40_@3x.png */,
+				9A918B921DABC5E3009563DA /* sk_WeiBo_36x36_@2x.png */,
+				9A918B931DABC5E3009563DA /* sk_WeiBo_40x40_@3x.png */,
+				9A918B861DABC5BF009563DA /* share_task_weibo_44x44_@2x.png */,
+				9A918B871DABC5BF009563DA /* share_task_weibo_57x57_@3x.png */,
+				9A918B881DABC5BF009563DA /* share_task_weixin_44x44_@2x.png */,
+				9A918B891DABC5BF009563DA /* share_task_weixin_57x57_@3x.png */,
+				9AB9FA781DAB488F00CE0504 /* emoji_panda_poor_44x39_@2x.png */,
+				9AB9FA5B1DAA67CA00CE0504 /* erweima.png */,
+				9AB9FA591DAA666400CE0504 /* icon_black_scancode@2x.png */,
+				9A1DE7C21DA8FC900047911B /* returnButton_hover_34x34_@3x.png */,
+				9A1DE7C01DA8FC7C0047911B /* returnButton_normal_34x34_@3x.png */,
+				9A1DE7BE1DA8F7050047911B /* viewerButton_normal_65x27_@3x.png */,
+				9A1DE7BC1DA8A3440047911B /* photo_default_icon_56x56_@2x.png */,
+				9A1DE7B81DA892360047911B /* living_19x10_@2x.png */,
+				9A1DE7B91DA892360047911B /* living_21x11_@3x.png */,
+				9A90CAB61DA6291000C080EB /* sk_clean_34x34_@3x.png */,
+				9A90CAB71DA6291000C080EB /* sk_clean01_34x34_@3x.png */,
+				9A90CA601DA4F24300C080EB /* arrow_right2_13x13_@2x.png */,
+				9A90CA4D1DA3B30900C080EB /* classify_default_321x444_@2x.png */,
+				9A95D0B01D9CF05E00DA48CD /* addbutton_43x40_@2x.png */,
+				9A95D0771D9A47EA00DA48CD /* searchbutton_18x18_@2x.png */,
+				9A95D0751D9A443A00DA48CD /* title_image_52x30_@2x.png */,
+			);
+			name = "素材";
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		9A95D07A1D9A48CB00DA48CD /* Categary(分类与重写) */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D07B1D9A491000DA48CD /* UIImage+LZHImage.h */,
+				9A95D07C1D9A491000DA48CD /* UIImage+LZHImage.m */,
+				9A95D07F1D9A4C4A00DA48CD /* UIView+LZHFrame.h */,
+				9A95D0801D9A4C4A00DA48CD /* UIView+LZHFrame.m */,
+				9A95D0881D9A838900DA48CD /* LZHMyButton.h */,
+				9A95D0891D9A838900DA48CD /* LZHMyButton.m */,
+			);
+			name = "Categary(分类与重写)";
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		9A95D0851D9A5E9B00DA48CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A95D0861D9A5EA400DA48CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A95D0871D9A5EA400DA48CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D09D1D9B973C00DA48CD /* 精彩推荐的Xib们 */,
+				9A90CA161D9F61D300C080EB /* 全部直播的xib们 */,
+				9A90CA2C1D9FE72600C080EB /* 英雄联盟的xib们 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A95D08B1D9ABFF900DA48CD /* 精彩推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0901D9AC08000DA48CD /* LZHRecommedTableViewController.h */,
+				9A95D0911D9AC08000DA48CD /* LZHRecommedTableViewController.m */,
+			);
+			name = "精彩推荐";
+			path = "../../Main(主要)/Controllers/精彩推荐";
+			sourceTree = "<group>";
+		};
+		9A95D08C1D9ABFF900DA48CD /* 炉石传说 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "炉石传说";
+			path = "../../Main(主要)/Controllers/炉石传说";
+			sourceTree = "<group>";
+		};
+		9A95D08D1D9ABFF900DA48CD /* 全部直播 */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA121D9F54A600C080EB /* LZHAllAliveViewController.h */,
+				9A90CA131D9F54A600C080EB /* LZHAllAliveViewController.m */,
+			);
+			name = "全部直播";
+			path = "../../Main(主要)/Controllers/全部直播";
+			sourceTree = "<group>";
+		};
+		9A95D08E1D9ABFF900DA48CD /* 熊猫新秀 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "熊猫新秀";
+			path = "../../Main(主要)/Controllers/熊猫新秀";
+			sourceTree = "<group>";
+		};
+		9A95D08F1D9ABFF900DA48CD /* 英雄联盟 */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA2D1D9FE80A00C080EB /* LZHLOLViewController.h */,
+				9A90CA2E1D9FE80A00C080EB /* LZHLOLViewController.m */,
+			);
+			name = "英雄联盟";
+			path = "../../Main(主要)/Controllers/英雄联盟";
+			sourceTree = "<group>";
+		};
+		9A95D0931D9B580400DA48CD /* 精彩推荐的Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0971D9B588F00DA48CD /* LZHScrollModel.h */,
+				9A95D0981D9B588F00DA48CD /* LZHScrollModel.m */,
+				9A95D0941D9B581900DA48CD /* LZHRModel.h */,
+				9A95D0951D9B581900DA48CD /* LZHRModel.m */,
+				9A95D09A1D9B677A00DA48CD /* LZHTempModel.h */,
+				9A95D09B1D9B677A00DA48CD /* LZHTempModel.m */,
+			);
+			name = "精彩推荐的Model";
+			path = "推荐的Model";
+			sourceTree = "<group>";
+		};
+		9A95D09D1D9B973C00DA48CD /* 精彩推荐的Xib们 */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0A61D9C98E100DA48CD /* LZHScrollViewHeadCell.h */,
+				9A95D0A71D9C98E100DA48CD /* LZHScrollViewHeadCell.m */,
+				9A95D0A91D9C98F100DA48CD /* LZHScrollViewHeadCell.xib */,
+				9A95D0AB1D9CDE5A00DA48CD /* LZHRecommedCell.h */,
+				9A95D0AC1D9CDE5A00DA48CD /* LZHRecommedCell.m */,
+				9A95D0AD1D9CDE5A00DA48CD /* LZHRecommedCell.xib */,
+			);
+			name = "精彩推荐的Xib们";
+			path = "精彩推荐";
+			sourceTree = "<group>";
+		};
+		9AB9FA511DAA0E0D00CE0504 /* Rank(排行榜) */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA621DAA799D00CE0504 /* Controllers */,
+				9AB9FA641DAA79A200CE0504 /* Model */,
+				9AB9FA631DAA79A000CE0504 /* View */,
+			);
+			name = "Rank(排行榜)";
+			sourceTree = "<group>";
+		};
+		9AB9FA551DAA61FE00CE0504 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA561DAA622A00CE0504 /* QRCodeViewController.h */,
+				9AB9FA571DAA622A00CE0504 /* QRCodeViewController.m */,
+			);
+			name = Scan;
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		9AB9FA5D1DAA6B4500CE0504 /* Erweima */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA5F1DAA6C2D00CE0504 /* UIImage+LZHErweima.h */,
+				9AB9FA601DAA6C2D00CE0504 /* UIImage+LZHErweima.m */,
+			);
+			name = Erweima;
+			sourceTree = "<group>";
+		};
+		9AB9FA621DAA799D00CE0504 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA521DAA0E5F00CE0504 /* LZHRankViewController.h */,
+				9AB9FA531DAA0E5F00CE0504 /* LZHRankViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9AB9FA631DAA79A000CE0504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA6B1DAA7F0600CE0504 /* LZHRankCell.h */,
+				9AB9FA6C1DAA7F0600CE0504 /* LZHRankCell.m */,
+				9AB9FA6D1DAA7F0600CE0504 /* LZHRankCell.xib */,
+				9AB9FA701DAB278500CE0504 /* LZHRightCell.h */,
+				9AB9FA711DAB278500CE0504 /* LZHRightCell.m */,
+				9AB9FA721DAB278500CE0504 /* LZHRightCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AB9FA641DAA79A200CE0504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA681DAA7C9B00CE0504 /* LZHRankModel.h */,
+				9AB9FA691DAA7C9B00CE0504 /* LZHRankModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9AFE198E1D98AE9E002F6572 = {
+			isa = PBXGroup;
+			children = (
+				9AFE19991D98AE9E002F6572 /* IMPandaTV */,
+				9AFE19B61D98AE9E002F6572 /* IMPandaTVTests */,
+				9AFE19981D98AE9E002F6572 /* Products */,
+				16DF0E44FBDC7ABA9F7EC48F /* Pods */,
+				D902DD954A1537E3EBE38A2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFE19981D98AE9E002F6572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19971D98AE9E002F6572 /* IMPandaTV.app */,
+				9AFE19B31D98AE9E002F6572 /* IMPandaTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFE19991D98AE9E002F6572 /* IMPandaTV */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA9A1DA5F52C00C080EB /* IJKMediaFramework.framework */,
+				9AFE19C21D98B4C1002F6572 /* Classes */,
+				9AFE199A1D98AE9E002F6572 /* Supporting Files */,
+			);
+			path = IMPandaTV;
+			sourceTree = "<group>";
+		};
+		9AFE199A1D98AE9E002F6572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19A91D98AE9E002F6572 /* Assets.xcassets */,
+				9AFE19AB1D98AE9E002F6572 /* LaunchScreen.storyboard */,
+				9AFE19AE1D98AE9E002F6572 /* Info.plist */,
+				9AFE19A61D98AE9E002F6572 /* IMPandaTV.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AFE19B61D98AE9E002F6572 /* IMPandaTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19B71D98AE9E002F6572 /* IMPandaTVTests.m */,
+				9AFE19B91D98AE9E002F6572 /* Info.plist */,
+			);
+			path = IMPandaTVTests;
+			sourceTree = "<group>";
+		};
+		9AFE19C21D98B4C1002F6572 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19DB1D98B4C1002F6572 /* Others */,
+				9AFE19D31D98B4C1002F6572 /* Main(主要) */,
+				9AFE19CF1D98B4C1002F6572 /* Home(首页) */,
+				9AFE19C71D98B4C1002F6572 /* Game(游戏) */,
+				9AFE19C31D98B4C1002F6572 /* Entertaiment(娱乐) */,
+				9AFE19CB1D98B4C1002F6572 /* Godness(女神) */,
+				9AFE19D71D98B4C1002F6572 /* Mine(我的) */,
+				9A90CA621DA5DAC900C080EB /* Live(直播) */,
+				9A90CABD1DA6768700C080EB /* Map(地图) */,
+				9A95D06F1D99FB2500DA48CD /* 素材 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9AFE19C31D98B4C1002F6572 /* Entertaiment(娱乐) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19C41D98B4C1002F6572 /* Controllers */,
+				9AFE19C51D98B4C1002F6572 /* Model */,
+				9AFE19C61D98B4C1002F6572 /* Views */,
+			);
+			path = "Entertaiment(娱乐)";
+			sourceTree = "<group>";
+		};
+		9AFE19C41D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0531D992C4B00DA48CD /* LZHEntertaimentViewController.h */,
+				9A95D0541D992C4B00DA48CD /* LZHEntertaimentViewController.m */,
+				9A90CA4F1DA4831E00C080EB /* TopClassViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19C51D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA531DA490B900C080EB /* LZHTopModel.h */,
+				9A90CA541DA490B900C080EB /* LZHTopModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19C61D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA561DA4938E00C080EB /* LZHTopClassCell.h */,
+				9A90CA571DA4938E00C080EB /* LZHTopClassCell.m */,
+				9A90CA581DA4938E00C080EB /* LZHTopClassCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19C71D98B4C1002F6572 /* Game(游戏) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19C81D98B4C1002F6572 /* Controllers */,
+				9AFE19C91D98B4C1002F6572 /* Model */,
+				9AFE19CA1D98B4C1002F6572 /* Views */,
+			);
+			path = "Game(游戏)";
+			sourceTree = "<group>";
+		};
+		9AFE19C81D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D04E1D992C0100DA48CD /* LZHGameCollectionViewController.h */,
+				9A95D04F1D992C0100DA48CD /* LZHGameCollectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19C91D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA451DA39D1800C080EB /* LZHGModel.h */,
+				9A90CA461DA39D1800C080EB /* LZHGModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19CA1D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0501D992C0100DA48CD /* LZHGameCollectionViewController.xib */,
+				9A90CA481DA39DD600C080EB /* LZHGameCell.h */,
+				9A90CA491DA39DD600C080EB /* LZHGameCell.m */,
+				9A90CA4A1DA39DD600C080EB /* LZHGameCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19CB1D98B4C1002F6572 /* Godness(女神) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19CC1D98B4C1002F6572 /* Controllers */,
+				9AFE19CD1D98B4C1002F6572 /* Model */,
+				9AFE19CE1D98B4C1002F6572 /* Views */,
+			);
+			name = "Godness(女神)";
+			path = "God(女神)";
+			sourceTree = "<group>";
+		};
+		9AFE19CC1D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0591D992D3F00DA48CD /* LZHGodViewController.h */,
+				9A95D05A1D992D3F00DA48CD /* LZHGodViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19CD1D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19CE1D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19CF1D98B4C1002F6572 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19D01D98B4C1002F6572 /* Controllers */,
+				9AFE19D11D98B4C1002F6572 /* Model */,
+				9AFE19D21D98B4C1002F6572 /* Views */,
+				9A90CA201D9FE36000C080EB /* Other */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		9AFE19D01D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D04B1D992BAB00DA48CD /* LZHHomeViewController.h */,
+				9A95D04C1D992BAB00DA48CD /* LZHHomeViewController.m */,
+				9A95D08B1D9ABFF900DA48CD /* 精彩推荐 */,
+				9A95D08D1D9ABFF900DA48CD /* 全部直播 */,
+				9A95D08F1D9ABFF900DA48CD /* 英雄联盟 */,
+				9A95D08C1D9ABFF900DA48CD /* 炉石传说 */,
+				9A95D08E1D9ABFF900DA48CD /* 熊猫新秀 */,
+				9A95D0851D9A5E9B00DA48CD /* Controllers */,
+				9A95D0861D9A5EA400DA48CD /* Models */,
+				9A95D0871D9A5EA400DA48CD /* Views */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19D11D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0931D9B580400DA48CD /* 精彩推荐的Model */,
+				9A90CA1C1D9FA5CD00C080EB /* 全部直播的Model */,
+				9A90CA381DA0D33100C080EB /* 英雄联盟的Model */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19D21D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19D31D98B4C1002F6572 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19D41D98B4C1002F6572 /* Controllers */,
+				9AFE19D51D98B4C1002F6572 /* Model */,
+				9AFE19D61D98B4C1002F6572 /* Views */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		9AFE19D41D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19E11D98B534002F6572 /* MainTabBarController.h */,
+				9AFE19E21D98B534002F6572 /* MainTabBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19D51D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19D61D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0721D99FE9B00DA48CD /* LZHTabBar.h */,
+				9A95D0731D99FE9B00DA48CD /* LZHTabBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19D71D98B4C1002F6572 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE19D81D98B4C1002F6572 /* Controllers */,
+				9AFE19D91D98B4C1002F6572 /* Model */,
+				9AFE19DA1D98B4C1002F6572 /* Views */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		9AFE19D81D98B4C1002F6572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A95D0561D992CD200DA48CD /* LZHMineTableViewController.h */,
+				9A95D0571D992CD200DA48CD /* LZHMineTableViewController.m */,
+				9A918B811DABC3C4009563DA /* LZHLogInViewController.h */,
+				9A918B821DABC3C4009563DA /* LZHLogInViewController.m */,
+				9A918B831DABC3C4009563DA /* LZHLogInViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AFE19D91D98B4C1002F6572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AFE19DA1D98B4C1002F6572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CA5B1DA4F0B000C080EB /* LZHMineCell.h */,
+				9A90CA5C1DA4F0B000C080EB /* LZHMineCell.m */,
+				9A90CA5D1DA4F0B000C080EB /* LZHMineCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFE19DB1D98B4C1002F6572 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9AB9FA551DAA61FE00CE0504 /* Scan */,
+				9A95D07A1D9A48CB00DA48CD /* Categary(分类与重写) */,
+				9AFE19DC1D98B4C1002F6572 /* AppDelegate.h */,
+				9AFE19DD1D98B4C1002F6572 /* AppDelegate.m */,
+				9AFE19DE1D98B4C1002F6572 /* main.m */,
+				9A95D07E1D9A4A8300DA48CD /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D902DD954A1537E3EBE38A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A90CAC71DA6937200C080EB /* MapKit.framework */,
+				9A90CAB21DA5F5F100C080EB /* VideoToolbox.framework */,
+				9A90CAB01DA5F5E600C080EB /* UIKit.framework */,
+				9A90CAAE1DA5F5DE00C080EB /* QuartzCore.framework */,
+				9A90CAAC1DA5F5CF00C080EB /* OpenGLES.framework */,
+				9A90CAAA1DA5F5C300C080EB /* MobileCoreServices.framework */,
+				9A90CAA81DA5F5B100C080EB /* MediaPlayer.framework */,
+				9A90CAA61DA5F59F00C080EB /* CoreMedia.framework */,
+				9A90CAA41DA5F59600C080EB /* CoreGraphics.framework */,
+				9A90CAA21DA5F58C00C080EB /* AVFoundation.framework */,
+				9A90CAA01DA5F58100C080EB /* AudioToolbox.framework */,
+				9A90CA9E1DA5F57600C080EB /* libbz2.tbd */,
+				9A90CA9C1DA5F56B00C080EB /* libz.tbd */,
+				2282B577AFB0326841BD9D78 /* libPods-IMPandaTV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFE19961D98AE9E002F6572 /* IMPandaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFE19BC1D98AE9E002F6572 /* Build configuration list for PBXNativeTarget "IMPandaTV" */;
+			buildPhases = (
+				20B6536070CBA0955DE69CA7 /* [CP] Check Pods Manifest.lock */,
+				9AFE19931D98AE9E002F6572 /* Sources */,
+				9AFE19941D98AE9E002F6572 /* Frameworks */,
+				9AFE19951D98AE9E002F6572 /* Resources */,
+				4E16CE7EA121856C4B44685E /* [CP] Embed Pods Frameworks */,
+				AE45B9146CC58C75F362DCAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMPandaTV;
+			productName = IMPandaTV;
+			productReference = 9AFE19971D98AE9E002F6572 /* IMPandaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AFE19B21D98AE9E002F6572 /* IMPandaTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFE19BF1D98AE9E002F6572 /* Build configuration list for PBXNativeTarget "IMPandaTVTests" */;
+			buildPhases = (
+				9AFE19AF1D98AE9E002F6572 /* Sources */,
+				9AFE19B01D98AE9E002F6572 /* Frameworks */,
+				9AFE19B11D98AE9E002F6572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFE19B51D98AE9E002F6572 /* PBXTargetDependency */,
+			);
+			name = IMPandaTVTests;
+			productName = IMPandaTVTests;
+			productReference = 9AFE19B31D98AE9E002F6572 /* IMPandaTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFE198F1D98AE9E002F6572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZH;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					9AFE19961D98AE9E002F6572 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3MX534FR8V;
+					};
+					9AFE19B21D98AE9E002F6572 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QW7ETYGCFK;
+						TestTargetID = 9AFE19961D98AE9E002F6572;
+					};
+				};
+			};
+			buildConfigurationList = 9AFE19921D98AE9E002F6572 /* Build configuration list for PBXProject "IMPandaTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFE198E1D98AE9E002F6572;
+			productRefGroup = 9AFE19981D98AE9E002F6572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFE19961D98AE9E002F6572 /* IMPandaTV */,
+				9AFE19B21D98AE9E002F6572 /* IMPandaTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFE19951D98AE9E002F6572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95D0781D9A47EA00DA48CD /* searchbutton_18x18_@2x.png in Resources */,
+				9A90CA5F1DA4F0B000C080EB /* LZHMineCell.xib in Resources */,
+				9A90CAC21DA6770100C080EB /* LZHMapViewController.xib in Resources */,
+				9A90CA441DA1417B00C080EB /* LZHItemsCell.xib in Resources */,
+				9A95D0AF1D9CDE5A00DA48CD /* LZHRecommedCell.xib in Resources */,
+				9A918B851DABC3C4009563DA /* LZHLogInViewController.xib in Resources */,
+				9A918B8C1DABC5BF009563DA /* share_task_weixin_44x44_@2x.png in Resources */,
+				9A95D0B11D9CF05F00DA48CD /* addbutton_43x40_@2x.png in Resources */,
+				9A90CAB91DA6291000C080EB /* sk_clean01_34x34_@3x.png in Resources */,
+				9A1DE7B71DA882730047911B /* LZHShowerViewController.xib in Resources */,
+				9A918B971DABC5E3009563DA /* sk_WeChat_40x40_@3x.png in Resources */,
+				9AFE19AD1D98AE9E002F6572 /* LaunchScreen.storyboard in Resources */,
+				9A1DE7BF1DA8F7050047911B /* viewerButton_normal_65x27_@3x.png in Resources */,
+				9AB9FA741DAB278500CE0504 /* LZHRightCell.xib in Resources */,
+				9A918B981DABC5E3009563DA /* sk_WeiBo_36x36_@2x.png in Resources */,
+				9A918B8D1DABC5BF009563DA /* share_task_weixin_57x57_@3x.png in Resources */,
+				9AB9FA5C1DAA67CA00CE0504 /* erweima.png in Resources */,
+				9A918B961DABC5E3009563DA /* sk_WeChat_36x36_@2x.png in Resources */,
+				9A918B8B1DABC5BF009563DA /* share_task_weibo_57x57_@3x.png in Resources */,
+				9A1DE7C31DA8FC900047911B /* returnButton_hover_34x34_@3x.png in Resources */,
+				9A90CA5A1DA4938E00C080EB /* LZHTopClassCell.xib in Resources */,
+				9A90CA611DA4F24300C080EB /* arrow_right2_13x13_@2x.png in Resources */,
+				9AB9FA6F1DAA7F0600CE0504 /* LZHRankCell.xib in Resources */,
+				9AB9FA5A1DAA666400CE0504 /* icon_black_scancode@2x.png in Resources */,
+				9A90CAB81DA6291000C080EB /* sk_clean_34x34_@3x.png in Resources */,
+				9A95D0AA1D9C98F100DA48CD /* LZHScrollViewHeadCell.xib in Resources */,
+				9AB9FA791DAB488F00CE0504 /* emoji_panda_poor_44x39_@2x.png in Resources */,
+				9A90CA4E1DA3B30900C080EB /* classify_default_321x444_@2x.png in Resources */,
+				9A90CA1B1D9F61F900C080EB /* LZHAliveCell.xib in Resources */,
+				9A1DE7BA1DA892360047911B /* living_19x10_@2x.png in Resources */,
+				9A1DE7BB1DA892360047911B /* living_21x11_@3x.png in Resources */,
+				9A95D0521D992C0100DA48CD /* LZHGameCollectionViewController.xib in Resources */,
+				9A918B991DABC5E3009563DA /* sk_WeiBo_40x40_@3x.png in Resources */,
+				9A1DE7BD1DA8A3440047911B /* photo_default_icon_56x56_@2x.png in Resources */,
+				9A918B8A1DABC5BF009563DA /* share_task_weibo_44x44_@2x.png in Resources */,
+				9A918B941DABC5E3009563DA /* sk_QQ_36x36_@2x.png in Resources */,
+				9A95D0761D9A443A00DA48CD /* title_image_52x30_@2x.png in Resources */,
+				9A1DE7C11DA8FC7C0047911B /* returnButton_normal_34x34_@3x.png in Resources */,
+				9AFE19AA1D98AE9E002F6572 /* Assets.xcassets in Resources */,
+				9A918B951DABC5E3009563DA /* sk_QQ_40x40_@3x.png in Resources */,
+				9A90CA4C1DA39DD600C080EB /* LZHGameCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE19B11D98AE9E002F6572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B6536070CBA0955DE69CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E16CE7EA121856C4B44685E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMPandaTV/Pods-IMPandaTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE45B9146CC58C75F362DCAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMPandaTV/Pods-IMPandaTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFE19931D98AE9E002F6572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB9FA6A1DAA7C9B00CE0504 /* LZHRankModel.m in Sources */,
+				9A90CA521DA4835A00C080EB /* LZHTopClassViewController.m in Sources */,
+				9AB9FA731DAB278500CE0504 /* LZHRightCell.m in Sources */,
+				9A90CA651DA5DAF700C080EB /* LZHLiveController.m in Sources */,
+				9AFE19DF1D98B4C1002F6572 /* AppDelegate.m in Sources */,
+				9A90CA431DA1417B00C080EB /* LZHItemsCell.m in Sources */,
+				9AFE19E01D98B4C1002F6572 /* main.m in Sources */,
+				9A95D0551D992C4B00DA48CD /* LZHEntertaimentViewController.m in Sources */,
+				9A95D05B1D992D3F00DA48CD /* LZHGodViewController.m in Sources */,
+				9A95D0741D99FE9B00DA48CD /* LZHTabBar.m in Sources */,
+				9AB9FA581DAA622A00CE0504 /* QRCodeViewController.m in Sources */,
+				9A90CA141D9F54A600C080EB /* LZHAllAliveViewController.m in Sources */,
+				9A95D0811D9A4C4A00DA48CD /* UIView+LZHFrame.m in Sources */,
+				9A90CA4B1DA39DD600C080EB /* LZHGameCell.m in Sources */,
+				9A95D0AE1D9CDE5A00DA48CD /* LZHRecommedCell.m in Sources */,
+				9A95D04D1D992BAB00DA48CD /* LZHHomeViewController.m in Sources */,
+				9A90CA471DA39D1800C080EB /* LZHGModel.m in Sources */,
+				9AB9FA6E1DAA7F0600CE0504 /* LZHRankCell.m in Sources */,
+				9A90CA1F1D9FA5FC00C080EB /* LZHLModel.m in Sources */,
+				9A95D0961D9B581900DA48CD /* LZHRModel.m in Sources */,
+				9A90CA5E1DA4F0B000C080EB /* LZHMineCell.m in Sources */,
+				9A95D08A1D9A838900DA48CD /* LZHMyButton.m in Sources */,
+				9A95D0991D9B588F00DA48CD /* LZHScrollModel.m in Sources */,
+				9AB9FA541DAA0E5F00CE0504 /* LZHRankViewController.m in Sources */,
+				9A95D0511D992C0100DA48CD /* LZHGameCollectionViewController.m in Sources */,
+				9A1DE7B61DA882730047911B /* LZHShowerViewController.m in Sources */,
+				9A90CAC11DA6770100C080EB /* LZHMapViewController.m in Sources */,
+				9A90CA591DA4938E00C080EB /* LZHTopClassCell.m in Sources */,
+				9A95D0581D992CD200DA48CD /* LZHMineTableViewController.m in Sources */,
+				9AFE19E31D98B534002F6572 /* MainTabBarController.m in Sources */,
+				9AB9FA611DAA6C2D00CE0504 /* UIImage+LZHErweima.m in Sources */,
+				9A90CA3B1DA0D35D00C080EB /* LZHLOLModel.m in Sources */,
+				9AFE19A81D98AE9E002F6572 /* IMPandaTV.xcdatamodeld in Sources */,
+				9A95D0A81D9C98E100DA48CD /* LZHScrollViewHeadCell.m in Sources */,
+				9A90CA1A1D9F61F900C080EB /* LZHAliveCell.m in Sources */,
+				9A90CA361DA0ABA400C080EB /* LZHCollectionReusableView.m in Sources */,
+				9A90CA3F1DA113A500C080EB /* LZHDModel.m in Sources */,
+				9A90CA551DA490B900C080EB /* LZHTopModel.m in Sources */,
+				9A95D0921D9AC08000DA48CD /* LZHRecommedTableViewController.m in Sources */,
+				9A90CA231D9FE38500C080EB /* LZHConst.m in Sources */,
+				9A95D07D1D9A491000DA48CD /* UIImage+LZHImage.m in Sources */,
+				9A918B841DABC3C4009563DA /* LZHLogInViewController.m in Sources */,
+				9A90CA2F1D9FE80A00C080EB /* LZHLOLViewController.m in Sources */,
+				9A95D09C1D9B677A00DA48CD /* LZHTempModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE19AF1D98AE9E002F6572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE19B81D98AE9E002F6572 /* IMPandaTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AFE19B51D98AE9E002F6572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFE19961D98AE9E002F6572 /* IMPandaTV */;
+			targetProxy = 9AFE19B41D98AE9E002F6572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AFE19AB1D98AE9E002F6572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFE19AC1D98AE9E002F6572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AFE19BA1D98AE9E002F6572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AFE19BB1D98AE9E002F6572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFE19BD1D98AE9E002F6572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3203B418BDDBC936DB902870 /* Pods-IMPandaTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhenfei Han (7MU69TSUNW)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMPandaTV",
+				);
+				GCC_PREFIX_HEADER = IMPandaTV/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = IMPandaTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"APOpenSdk\"",
+					"-l\"LWApiSDK\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LZH.IMPandaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "277de287-7c9f-4132-8106-ce21c61c5c7c";
+			};
+			name = Debug;
+		};
+		9AFE19BE1D98AE9E002F6572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC37E3DA9454F02CD9BBA28A /* Pods-IMPandaTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhenfei Han (7MU69TSUNW)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMPandaTV",
+				);
+				GCC_PREFIX_HEADER = IMPandaTV/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = IMPandaTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"APOpenSdk\"",
+					"-l\"LWApiSDK\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LZH.IMPandaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "277de287-7c9f-4132-8106-ce21c61c5c7c";
+			};
+			name = Release;
+		};
+		9AFE19C01D98AE9E002F6572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMPandaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZH.IMPandaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPandaTV.app/IMPandaTV";
+			};
+			name = Debug;
+		};
+		9AFE19C11D98AE9E002F6572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMPandaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZH.IMPandaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPandaTV.app/IMPandaTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFE19921D98AE9E002F6572 /* Build configuration list for PBXProject "IMPandaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE19BA1D98AE9E002F6572 /* Debug */,
+				9AFE19BB1D98AE9E002F6572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFE19BC1D98AE9E002F6572 /* Build configuration list for PBXNativeTarget "IMPandaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE19BD1D98AE9E002F6572 /* Debug */,
+				9AFE19BE1D98AE9E002F6572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFE19BF1D98AE9E002F6572 /* Build configuration list for PBXNativeTarget "IMPandaTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE19C01D98AE9E002F6572 /* Debug */,
+				9AFE19C11D98AE9E002F6572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AFE19A61D98AE9E002F6572 /* IMPandaTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AFE19A71D98AE9E002F6572 /* IMPandaTV.xcdatamodel */,
+			);
+			currentVersion = 9AFE19A71D98AE9E002F6572 /* IMPandaTV.xcdatamodel */;
+			path = IMPandaTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AFE198F1D98AE9E002F6572 /* Project object */;
+}
